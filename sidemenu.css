@@ -1,0 +1,64 @@
+
+.nav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 2;
+	top: -10;
+	left: 0;
+	background-color: #fff;
+	opacity: .9;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.7s;
+}
+.nav a {
+	display: block;
+	padding: 20px 30px;
+	font-size: 16px;
+	text-decoration: none;
+	color: #000;
+}
+.nav a:hover {
+	color: #fff;
+	transition: 0.4s;
+}
+.nav .close {
+	position: absolute;
+	top: 0;
+	right: 50px;
+	margin-left: 50px;
+	font-size: 15px
+}
+.slide a {
+	color: #000;
+	font-size: 36px;
+}
+#content {
+	padding: 20px;
+	transition: margin-left 0.7s;
+	overflow: hidden;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
